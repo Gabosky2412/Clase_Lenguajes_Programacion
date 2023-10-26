@@ -1,0 +1,73 @@
+conceptos POO
+# conceptos de P.O.O
+
+# 1. abstraccion: creando una clase con metodos y atributos estamos trabajando con abstraccion;
+#                 atributos y metodos en cada clase que tenga creadas y asociadas
+
+# 2. encapsulamiento: se puede tener atributos publicos y privados dentro de las clases asociadas;
+#                     poder ocultar o mostrar ciertos atributos y/o metodos
+#                     (usarlos al final de los atributos de instancia)
+       
+class Publicacion:
+
+    def __init__(self,pTitulo,pAutores) -> None:
+        self.titulo = pTitulo
+        self.Autores = pAutores
+
+    #metodo publico
+    def eliminarAutor(pAutores):
+        pass
+
+    #metodo privado
+    def _eliminarAutor(pAutores):
+        pass
+
+class Revista(Publicacion):
+
+    def __init__(self, pTitulo, pAutores, pIssn, pVol, pAnio) -> None:
+        super().__init__(pTitulo, pAutores)
+        self.issn = pIssn
+        self.vol = pVol
+        self.anio = pAnio
+
+# 3. polimorfismo: capacidad de las clases, funciones y operadores adopten distintos comportamientos
+# polimorfismo -> sobrecarga = se puede sobrecargar funciones y/u operadores
+
+#polimorfismo con sobrecarga
+#sobrecargamos la funcion para que pueda imprimir lo que le indiquemos
+    def __str__(self) -> str:
+        return
+
+# 4. herencia: sirve para generalizar una clase, es deir los atributos comunes entre dos o mas clases
+#              puede solo tenerlo una clase para que asi las otras puedan utilizarlo
+#              (con clases abstractas y/o interfaces)
+
+class ProductoInvestigacion:
+
+    def __init__(self,pTitulo,pAutores) -> None:
+        self.titulo = pTitulo
+        self.Autores = pAutores
+
+    #metodo publico
+    def eliminarAutor(pAutores):
+        pass
+
+    #metodo privado
+    def _eliminarAutor(pAutores):
+        pass
+
+class ArticuloRevista(ProductoInvestigacion):
+
+    def __init__(self, pTitulo, pAutores, pIssn, pVol, pAnio) -> None:
+        super().__init__(pTitulo, pAutores)
+        self.issn = pIssn
+        self.vol = pVol
+        self.anio = pAnio
+
+class Libro(ProductoInvestigacion):
+    def __init__(self, pTitulo, pAutores) -> None:
+        super().__init__(pTitulo, pAutores)
+
+class RegistroSoftware(ProductoInvestigacion):
+    def __init__(self, pTitulo, pAutores) -> None:
+        super().__init__(pTitulo, pAutores)

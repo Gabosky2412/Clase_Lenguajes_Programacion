@@ -1,0 +1,9 @@
+modelo vista controlador
+es un patron de aquitectura
+
+modelo, vista, controladorcada uno es una clase separada y que interactuan entre ellas
+teniendo actualizados los datos y al usuario
+
+modelo: Datos; logica de datos y conexion a dichos datos
+vista: interfaces de usuario, vista de la informacion, logica de interaccion
+controlador: intermediario entre modelo y vista; logica de la aplicacion
