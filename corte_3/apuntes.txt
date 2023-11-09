@@ -1,0 +1,14 @@
+Examen final : 30 noviembre
+Entrega Github Pages 1 diciembre
+
+paradigmas importantes a tener en cuenta:
+1. Estructurado 
+2. Orientado a Objetos: clases, objetos, relaciones
+3. Funcional: (corte 1), (sirve para el calculo lamda)
+4. concurrente: programacion concurrente con hilos (corte 3), (sirve para calculo PI)
+
+Programacion concurrente en Java
+- prograamcion concurrente a travez de hilos en java
+-varias tareas trabajando "simultaneamente", ya que hasta ahora solo trabajamos con un hilo MAIN
+
+"En las plataformas de Streaming tales como Netflix, ocurren varias cosas al mismo tiempo como la conexion de red, descarga de video, UI, etc"
