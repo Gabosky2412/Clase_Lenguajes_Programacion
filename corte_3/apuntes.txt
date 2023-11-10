@@ -12,3 +12,12 @@ Programacion concurrente en Java
 -varias tareas trabajando "simultaneamente", ya que hasta ahora solo trabajamos con un hilo MAIN
 
 "En las plataformas de Streaming tales como Netflix, ocurren varias cosas al mismo tiempo como la conexion de red, descarga de video, UI, etc"
+
+-Beneficios
+
+-Porblemas
+
+IMPORTANTE:
+1. seccion critica
+2. interbloqueos
+3. espera circular
