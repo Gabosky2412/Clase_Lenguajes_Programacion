@@ -1,7 +1,0 @@
-1. crear una cuenta en github
-2. seguir los pasos para crear una pagina en "pages.github.com"
-3. hacer una pagina main o principal 
-4. tener una pagina por cada unidad (3 unidades)
-5. en cada pagina poner ejemplos de codigos, imagenes, ejemplos, como y que se hizo y que aprendi en cada unidad
-6. buena organizacion, buen contenido, originalidad
-7. hasta la ultima semana de estudio sera recibida
